@@ -1,0 +1,26 @@
+# 模拟面试个人知识库问答系统 · 依赖（与 conda shangguigu1 验证环境对齐，2026-10-30）
+# 核心依赖（环境中已安装，可直接运行；全新设备执行：python -m pip install -r requirements.txt）
+streamlit==1.66.1
+langchain==1.2.12
+langchain-core==1.2.18
+langchain-openai==1.1.11
+langchain-ollama==1.0.1
+langchain-chroma==1.1.0
+langchain-text-splitters==1.1.1
+chromadb==1.5.9
+rank-bm25==0.2.2
+pypdf==6.10.2
+python-docx==1.2.0
+pandas==3.0.2
+plotly==7.1.0
+beautifulsoup4==4.14.3
+requests==2.32.5
+python-dotenv==1.2.1
+
+# 测试
+pytest==9.0.3
+
+# ===== 可选功能 =====
+# 语音提问转文字（首次使用语音时自动下载约 145MB 的 base 模型）。
+# 不需要语音功能可忽略，系统其余功能完全不依赖它。
+# faster-whisper==1.0.3

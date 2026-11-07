@@ -1,0 +1,4 @@
+# Streamlit 服务级配置（项目本地，新手无需修改）
+[server]
+# 单文件上传上限 100MB，与需求文档及应用内校验保持一致
+maxUploadSize = 100
